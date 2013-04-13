@@ -8,7 +8,7 @@ fill(255, 0, 0); // Red color
 ellipse(550, 800, 310, 310); // Bombo
 fill(0, 255, 0); // Green color
 ellipse(350, 600, 200, 200); // Caja
-fill(0, 0, 255); // Blue color
+fill(0, 0, 255, 100); // Blue color
 ellipse(200, 550, 200, 200); // Hi-Hat
 fill(255, 0, 0); // Red color
 ellipse(450, 500, 150, 150); // Tomb 14'
