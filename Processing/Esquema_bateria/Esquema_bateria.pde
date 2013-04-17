@@ -1,14 +1,32 @@
 //Esquema básico de cómo se verá la interfaz con el usuario
-int i=1100, j=900;
+int i=1000, j=700;
+
+void setup(){
 size(i, j);
-//noStroke();
+noStroke();
+rectMode(CORNERS);
+
+}
+
+
+void draw(){
 smooth();
+
+
+
 background(227, 184, 128); // Fondo Beige
-fill(255, 0, 0); // Red color
+
+
+fill(255, 0,0); // Red color
 ellipse(550, 800, 310, 310); // Bombo
-fill(0, 255, 0); // Green color
-ellipse(350, 600, 200, 200); // Caja
-fill(0, 0, 255, 100); // Blue color
+
+for(int i=0;i<=120&& i<=mouseX;i+=10){
+
+fill(i*2, 0, 250-i*2); // Green color
+ellipse(350, 600, 200-i, 200-i); // Caja
+
+}
+fill(0, 0, 255); // Blue color
 ellipse(200, 550, 200, 200); // Hi-Hat
 fill(255, 0, 0); // Red color
 ellipse(450, 500, 150, 150); // Tomb 14'
@@ -25,10 +43,6 @@ fill(255, 247, 0); // Red color
 ellipse(980, 600, 220, 220); // Ride
 
 
-
-
-
-
 int x=0, y=0;
 while(x<i) // grilla
 {
@@ -39,5 +53,10 @@ while(x<i) // grilla
   }
 x=x+50;
 y=0;
-}          // grilla que no sé hacerla como procedimiento... aún.
+} 
 
+// grilla que no sé hacerla como procedimiento... aún.
+
+
+
+}
