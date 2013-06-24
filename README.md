@@ -1,6 +1,9 @@
 arduino
 =======
 
-Repositorio para trabajar en nuestros primeros pasos en Arduino 
+Proyecto Bateria Virtual
 
-asdasd La tele tiene 3 entradas para los compus xD
+Air-drum 
+
+Este Proyecto consiste en simular un instrumento musical como la bateria de tal manera que se pueda manipular a traves con las manos
+y un pedal creado con arduino.
