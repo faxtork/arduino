@@ -336,6 +336,12 @@ En primera instancia, coincidimos que era mucho más factible, realizar este
 Utilizando las librerías Cwid en conjunto con wmgui y la transferencia de
  datos por bluetooth(BlueZ).
  Para una mejor captación de movimiento se procede a construir un senso-bar
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Flo:Senso-bar"
+
+\end_inset
+
  para poder tener una mejor conexión entre el wiimote y la computadora.
  Dicha barra, consiste básicamente en colocar 4 leds infrarrojos, siendo
  alimentados por una computadora por medio de un cable usb.
@@ -347,6 +353,51 @@ status open
 
 \begin_layout Plain Layout
 (Insertar foto del senso bar)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename sensobar.jpg
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Senso Bar
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "Flo:Senso-bar"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -927,7 +978,14 @@ Añadiendo elementos:
 \begin_layout Standard
 Ahora se procede a agregar un botón, de tipo pulsador, el cual será utilizado
  con el pie, logrando una experiencia mucho más realista para el usuario-jugador.
- Es aquí donde entra en juego Arduino.
+ Es aquí donde entra en juego Arduino 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Flo:Circuito-boton"
+
+\end_inset
+
+.
  Desde Processing, es posible llamar librerías capaces de conectarse con
  Arduino.
  Con esto dicho, se pudo establecer un puente de comunicación utilizando
@@ -1109,6 +1167,53 @@ status open
 
 \begin_layout Plain Layout
 (chantamos un par de fotos)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename circuito boton.jpg
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Circuito Boton
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "Flo:Circuito-boton"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset

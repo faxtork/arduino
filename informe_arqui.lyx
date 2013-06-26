@@ -965,6 +965,28 @@ Link de las librerías
 \end_layout
 
 \begin_layout Standard
+\begin_inset CommandInset href
+LatexCommand href
+name "Simple-openni"
+target "http://code.google.com/p/simple-openni/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset href
+LatexCommand href
+name "Processing 1.5.1"
+target "https://www.processing.org/download/?processing"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Luego de haberse configurado todo, procedemos a ejecutar e interpretar el
  código (link).
  Resulta bastante beneficioso para el equipo, que éste funciona, pero no
@@ -3700,6 +3722,118 @@ Para finalizar, wiimote era una idea factible, pero no para nuestro objetivo
 
 \begin_layout Section
 Bibliografía.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://arduino.cc/es/Tutorial/Invert
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.instructables.com/id/virtual-graffiti/step6/computer-setup-processing-a
+nd-the-wiimote/
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://blog.jorgeivanmeza.com/2010/12/problemas-para-reproducir-sonidos-en-process
+ing-con-minim-bajo-ubuntu-10-10/
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://blog.jorgeivanmeza.com/2010/12/problemas-para-reproducir-sonidos-en-process
+ing-con-minim-bajo-ubuntu-10-10/
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.openprocessing.org/
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://github.com/ddf/Minim
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://blog.jorgeivanmeza.com/2010/12/utilizar-el-wiimote-con-processing-en-ubuntu
+-10-10/
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
