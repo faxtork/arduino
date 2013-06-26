@@ -380,11 +380,376 @@ o un simple ejemplo de prueba se pudo lograr con efectividad conectar nuestro
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
+\begin_inset Float algorithm
+wide false
+sideways false
 status open
 
 \begin_layout Plain Layout
-(Codigo Fuente del Primer Ejemplo)
+\begin_inset listings
+lstparams "basicstyle={\scriptsize\sffamily},breaklines=true,extendedchars=true,language={[AspectJ]Java},numbers=left,numberstyle={\footnotesize}"
+inline false
+status open
+
+\begin_layout Plain Layout
+
+import ddf.minim.*;
+\end_layout
+
+\begin_layout Plain Layout
+
+import lll.Loc.*;
+\end_layout
+
+\begin_layout Plain Layout
+
+import lll.wrj4P5.*;
+\end_layout
+
+\begin_layout Plain Layout
+
+Wrj4P5 wii;
+\end_layout
+
+\begin_layout Plain Layout
+
+Minim minim;
+\end_layout
+
+\begin_layout Plain Layout
+
+Minim mini;
+\end_layout
+
+\begin_layout Plain Layout
+
+AudioPlayer bmusic;
+\end_layout
+
+\begin_layout Plain Layout
+
+AudioPlayer playe;
+\end_layout
+
+\begin_layout Plain Layout
+
+int spazio=50;
+\end_layout
+
+\begin_layout Plain Layout
+
+int value;
+\end_layout
+
+\begin_layout Plain Layout
+
+void setup() {
+\end_layout
+
+\begin_layout Plain Layout
+
+  size(300,300,P3D);
+\end_layout
+
+\begin_layout Plain Layout
+
+  wii=new Wrj4P5(this);
+\end_layout
+
+\begin_layout Plain Layout
+
+  wii.connect();
+\end_layout
+
+\begin_layout Plain Layout
+
+  minim= new Minim(this);
+\end_layout
+
+\begin_layout Plain Layout
+
+  mini= new Minim(this);
+\end_layout
+
+\begin_layout Plain Layout
+
+  bmusic = minim.loadFile("Crash.wav", 1024);
+\end_layout
+
+\begin_layout Plain Layout
+
+  playe = mini.loadFile("LowTom.wav");
+\end_layout
+
+\begin_layout Plain Layout
+
+} 
+\end_layout
+
+\begin_layout Plain Layout
+
+void draw() {
+\end_layout
+
+\begin_layout Plain Layout
+
+  background(0);
+\end_layout
+
+\begin_layout Plain Layout
+
+  stroke(255);
+\end_layout
+
+\begin_layout Plain Layout
+
+  translate(100/1,200/1,0);
+\end_layout
+
+\begin_layout Plain Layout
+
+  lights();
+\end_layout
+
+\begin_layout Plain Layout
+
+  Loc p=wii.rimokon.irLights[0];
+\end_layout
+
+\begin_layout Plain Layout
+
+  Loc a=wii.rimokon.irLights[1];
+\end_layout
+
+\begin_layout Plain Layout
+
+  Loc b=wii.rimokon.irLights[2];
+\end_layout
+
+\begin_layout Plain Layout
+
+  Loc c=wii.rimokon.irLights[3];
+\end_layout
+
+\begin_layout Plain Layout
+
+  rotateX((int) (wii.rimokon.senced.x*5+10));
+\end_layout
+
+\begin_layout Plain Layout
+
+  rotateY((int) (wii.rimokon.senced.y*5+10));
+\end_layout
+
+\begin_layout Plain Layout
+
+  rotateZ((int) (wii.rimokon.senced.z*5+10));
+\end_layout
+
+\begin_layout Plain Layout
+
+  box(100,100,100);
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+  
+\end_layout
+
+\begin_layout Plain Layout
+
+void buttonPressed(RimokonEvent evt, int rid) {
+\end_layout
+
+\begin_layout Plain Layout
+
+   if (evt.wasPressed(RimokonEvent.TWO)){ 
+\end_layout
+
+\begin_layout Plain Layout
+
+   //song= minim.loadFile("Crash.wav");
+\end_layout
+
+\begin_layout Plain Layout
+
+   //song.play();
+\end_layout
+
+\begin_layout Plain Layout
+
+   //value=1;
+\end_layout
+
+\begin_layout Plain Layout
+
+  //bmusic.rewind();
+\end_layout
+
+\begin_layout Plain Layout
+
+  //play the file
+\end_layout
+
+\begin_layout Plain Layout
+
+  bmusic.play();
+\end_layout
+
+\begin_layout Plain Layout
+
+  bmusic.rewind();
+\end_layout
+
+\begin_layout Plain Layout
+
+  //value=1;
+\end_layout
+
+\begin_layout Plain Layout
+
+ }
+\end_layout
+
+\begin_layout Plain Layout
+
+  if (evt.wasPressed(RimokonEvent.ONE)){
+\end_layout
+
+\begin_layout Plain Layout
+
+  //play the file
+\end_layout
+
+\begin_layout Plain Layout
+
+  //playe = minim.loadFile("LowTom.wav",1024);
+\end_layout
+
+\begin_layout Plain Layout
+
+  playe.play();
+\end_layout
+
+\begin_layout Plain Layout
+
+  playe.rewind(); 
+\end_layout
+
+\begin_layout Plain Layout
+
+   }
+\end_layout
+
+\begin_layout Plain Layout
+
+   if (evt.wasPressed(RimokonEvent.B)) println("B");
+\end_layout
+
+\begin_layout Plain Layout
+
+   if (evt.wasPressed(RimokonEvent.A)) println("A");
+\end_layout
+
+\begin_layout Plain Layout
+
+   if (evt.wasPressed(RimokonEvent.MINUS)) println("Minus");
+\end_layout
+
+\begin_layout Plain Layout
+
+   if (evt.wasPressed(RimokonEvent.HOME)) println("Home");
+\end_layout
+
+\begin_layout Plain Layout
+
+   if (evt.wasPressed(RimokonEvent.LEFT)) println("Left");
+\end_layout
+
+\begin_layout Plain Layout
+
+   if (evt.wasPressed(RimokonEvent.RIGHT)) println("Right");
+\end_layout
+
+\begin_layout Plain Layout
+
+   if (evt.wasPressed(RimokonEvent.DOWN)) println("Down");
+\end_layout
+
+\begin_layout Plain Layout
+
+   if (evt.wasPressed(RimokonEvent.UP)) println("Up");
+\end_layout
+
+\begin_layout Plain Layout
+
+   if (evt.wasPressed(RimokonEvent.PLUS)) println("Plus");
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+void stop(){
+\end_layout
+
+\begin_layout Plain Layout
+
+  // always close Minim audio classes when you are done with them
+\end_layout
+
+\begin_layout Plain Layout
+
+  bmusic.close();
+\end_layout
+
+\begin_layout Plain Layout
+
+  playe.close();
+\end_layout
+
+\begin_layout Plain Layout
+
+  minim.stop();
+\end_layout
+
+\begin_layout Plain Layout
+
+  super.stop();
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Tocar un sonido con un botón en Wii
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -558,7 +923,38 @@ Ahora se procede a agregar un botón, de tipo pulsador, el cual será utilizado
  Desde Processing, es posible llamar librerías capaces de conectarse con
  Arduino.
  Con esto dicho, se pudo establecer un puente de comunicación utilizando
- el siguiente ejemplo
+ el siguiente ejemplo:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float algorithm
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Obteniendo un sonido, por medio de arduino
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -615,7 +1011,9 @@ Se verifica que a pesar que la kinect al ser desarrollado por microsoft
  mientras que arduino al ser un hardware libre no presentas problemas para
  trabajar en cualquier S.O.
  Cabe destacar que aún existen conflictos entre programas de 32 y 64 bits
- que no han sido solucionados,
+ que no han sido solucionados o en sus versiones previas (en el caso de
+ processing 2.0 de 32 y 64 y processing 2.0 y 1.5).
+ 
 \end_layout
 
 \begin_layout Standard
