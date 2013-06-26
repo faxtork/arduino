@@ -1303,10 +1303,64 @@ Para finalizar, wiimote era una idea factible, pero no para nuestro objetivo
 \end_layout
 
 \begin_layout Section
-Bibliografía.
+Bibliografía
 \end_layout
 
-\begin_layout Standard
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-1"
+
+\end_inset
+
+Greg Borenstein.
+ 
+\shape italic
+Making things see
+\shape default
+, Canada.
+ 
+\shape italic
+Ed.
+ O'Rielly 2010.
+
+\shape default
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-10"
+
+\end_inset
+
+Casey Reas, Ben Fry.
+ 
+\shape italic
+Gertting started with Processing
+\shape default
+, United States 
+\shape italic
+Ed.
+ O'Rielly 2010.
+
+\shape default
+ 
+\end_layout
+
+\begin_layout Section
+Referencias.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-2"
+
+\end_inset
+
+
 \begin_inset Flex URL
 status open
 
@@ -1319,6 +1373,16 @@ http://arduino.cc/es/Tutorial/Invert
 
 
 \begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-3"
+
 \end_inset
 
 
@@ -1338,6 +1402,16 @@ nd-the-wiimote/
 \end_inset
 
 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-4"
+
+\end_inset
+
+
 \begin_inset Flex URL
 status open
 
@@ -1354,6 +1428,16 @@ ing-con-minim-bajo-ubuntu-10-10/
 \end_inset
 
 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-8"
+
+\end_inset
+
+
 \begin_inset Flex URL
 status open
 
@@ -1367,6 +1451,16 @@ ing-con-minim-bajo-ubuntu-10-10/
 
 
 \begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-5"
+
 \end_inset
 
 
@@ -1385,6 +1479,16 @@ http://www.openprocessing.org/
 \end_inset
 
 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-6"
+
+\end_inset
+
+
 \begin_inset Flex URL
 status open
 
@@ -1397,6 +1501,16 @@ https://github.com/ddf/Minim
 
 
 \begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-7"
+
 \end_inset
 
 
@@ -1415,10 +1529,6 @@ http://blog.jorgeivanmeza.com/2010/12/utilizar-el-wiimote-con-processing-en-ubun
 \begin_inset Newline newline
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 
 \end_layout
 
