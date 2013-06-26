@@ -615,9 +615,7 @@ Se verifica que a pesar que la kinect al ser desarrollado por microsoft
  mientras que arduino al ser un hardware libre no presentas problemas para
  trabajar en cualquier S.O.
  Cabe destacar que aún existen conflictos entre programas de 32 y 64 bits
- que no han sido solucionados o en sus versiones previas (en el caso de
- processing 2.0 de 32 y 64 y processing 2.0 y 1.5).
- 
+ que no han sido solucionados,
 \end_layout
 
 \begin_layout Standard

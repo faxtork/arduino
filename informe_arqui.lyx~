@@ -584,7 +584,7 @@ La diferencia que se estableció, con el ejemplo proporcionado por la web
  bombo de batería de 32”.
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsubsection
 Resultado final.
 \end_layout
 
@@ -601,29 +601,26 @@ Conclusión.
 \end_layout
 
 \begin_layout Standard
-Al concluir este proyecto se da cuenta de las grandes ventajas que provee
- el IDE Processing para el manejo del arduino y la kinect para el propósito,
- también se puede apreciar la gran fluidez del este lenguaje y a su vez
- la kinect provee un gran manejo y control sobre el reconocimiento con la
- camara que ésta posee para nuestro propósito y que con arduino se puede
- abarcar mucho más de lo imaginado (el límite es la imaginacion).
+Al concluir este proyecto nos damos cuenta de las grandes ventajas que nos
+ prove el IDE Processing para el manejo del arduino y la kinect para nuestro
+ proposito, tambien podemos apreciar la gran fluides del este lenguaje.
+ Nos damos cuenta la kinect nos provee un gran manejo y control sobre el
+ reconocimiento con la camara que esta posee para nuestro proposito y que
+ con arduino podemos abarcar mucho mas de lo imaginadon (el limite es la
+ imaginacion).
 \end_layout
 
 \begin_layout Standard
-Se verifica que a pesar que la kinect al ser desarrollado por microsoft
+Verificamos que a pesar que la kinect al ser desarrollado por microsoft
  se desenvuelve perfectamente en sistemas basados en unix (gnu/linux, mac),
  mientras que arduino al ser un hardware libre no presentas problemas para
- trabajar en cualquier S.O.
- Cabe destacar que aún existen conflictos entre programas de 32 y 64 bits
- que no han sido solucionados o en sus versiones previas (en el caso de
- processing 2.0 de 32 y 64 y processing 2.0 y 1.5).
- 
+ trabajar en cualquier S.O..
 \end_layout
 
 \begin_layout Standard
-Para finalizar, wiimote era una idea factible, pero no para nuestro objetivo
- final debido a falta de librerias, errores e incompatibilidades con processing
- referente a diversos S.O.
+Para finalizar decir que aunque wiimote era una idea factible, pero no para
+ nuestro objetivo final debido a falta de librerias, errores y compatibilidades
+ con processing referente a diversos S.O.
  existentes.
 \end_layout
 
