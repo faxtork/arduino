@@ -600,6 +600,30 @@ Una foto vale mil palabras, pero un video vale mil fotos.
 Conclusión.
 \end_layout
 
+\begin_layout Standard
+Al concluir este proyecto nos damos cuenta de las grandes ventajas que nos
+ prove el IDE Processing para el manejo del arduino y la kinect para nuestro
+ proposito, tambien podemos apreciar la gran fluides del este lenguaje.
+ Nos damos cuenta la kinect nos provee un gran manejo y control sobre el
+ reconocimiento con la camara que esta posee para nuestro proposito y que
+ con arduino podemos abarcar mucho mas de lo imaginadon (el limite es la
+ imaginacion).
+\end_layout
+
+\begin_layout Standard
+Verificamos que a pesar que la kinect al ser desarrollado por microsoft
+ se desenvuelve perfectamente en sistemas basados en unix (gnu/linux, mac),
+ mientras que arduino al ser un hardware libre no presentas problemas para
+ trabajar en cualquier S.O..
+\end_layout
+
+\begin_layout Standard
+Para finalizar decir que aunque wiimote era una idea factible, pero no para
+ nuestro objetivo final debido a falta de librerias, errores y compatibilidades
+ con processing referente a diversos S.O.
+ existentes.
+\end_layout
+
 \begin_layout Section
 Bibliografía.
 \end_layout
