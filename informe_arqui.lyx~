@@ -123,12 +123,8 @@ Ahora tener música a la mano, es un privilegio de muchos, pero ¿somos todos
  
 \end_layout
 
-\begin_layout Quotation
+\begin_layout Quote
 A la guitarra se le sacan notas, no lágrimas 
-\end_layout
-
-\begin_layout Quotation
-
 \end_layout
 
 \begin_layout Quotation
@@ -406,12 +402,10 @@ name "Flo:Senso-bar"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-(insertar una foto de circuitado)
-\end_layout
+\begin_inset CommandInset href
+LatexCommand href
+name "Cómo hacer un sensorbar"
+target "http://www.taringa.net/posts/ebooks-tutoriales/4740336/Hacer-Barra-Sensora-casera-USB-para-Wii-sensor-bar.html"
 
 \end_inset
 
@@ -965,6 +959,28 @@ Link de las librerías
 \end_layout
 
 \begin_layout Standard
+\begin_inset CommandInset href
+LatexCommand href
+name "Simple-openni"
+target "http://code.google.com/p/simple-openni/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset href
+LatexCommand href
+name "Processing 1.5.1"
+target "https://www.processing.org/download/?processing"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Luego de haberse configurado todo, procedemos a ejecutar e interpretar el
  código (link).
  Resulta bastante beneficioso para el equipo, que éste funciona, pero no
@@ -1162,19 +1178,6 @@ Obteniendo un sonido, por medio de arduino
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-(chantamos un par de fotos)
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -1183,6 +1186,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename circuito boton.jpg
+	lyxscale 10
 	width 80text%
 
 \end_inset
@@ -1232,17 +1236,15 @@ Resultado final.
 \end_layout
 
 \begin_layout Standard
-Una foto vale mil palabras, pero un video vale mil fotos.
-\end_layout
-
-\begin_layout Standard
+Una foto vale mil palabras, pero un 
 \begin_inset CommandInset href
 LatexCommand href
+name "video"
 target "http://youtu.be/qib120aztOE"
 
 \end_inset
 
-
+ vale mil fotos.
 \end_layout
 
 \begin_layout Section
@@ -3700,6 +3702,118 @@ Para finalizar, wiimote era una idea factible, pero no para nuestro objetivo
 
 \begin_layout Section
 Bibliografía.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://arduino.cc/es/Tutorial/Invert
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.instructables.com/id/virtual-graffiti/step6/computer-setup-processing-a
+nd-the-wiimote/
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://blog.jorgeivanmeza.com/2010/12/problemas-para-reproducir-sonidos-en-process
+ing-con-minim-bajo-ubuntu-10-10/
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://blog.jorgeivanmeza.com/2010/12/problemas-para-reproducir-sonidos-en-process
+ing-con-minim-bajo-ubuntu-10-10/
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.openprocessing.org/
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://github.com/ddf/Minim
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://blog.jorgeivanmeza.com/2010/12/utilizar-el-wiimote-con-processing-en-ubuntu
+-10-10/
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
