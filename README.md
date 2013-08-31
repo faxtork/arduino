@@ -37,11 +37,11 @@ Antes de proceder ejecutar Air-Drum se necesitan los siguientes software instala
 
 		https://code.google.com/p/simple-openni/
 
-	2.2.- Descargar,descomprimir y copiar libreria para proccesing de simpleopenni y 		agregarla a proccesing C:\Users\'your username'\Documents\Processing\libraries
+	2.2.- Descargar,descomprimir y copiar libreria para proccesing de simpleopenni y agregarla a proccesing C:\Users\'your username'\Documents\Processing\libraries
 
-		http://code.google.com/p/simple-openni/downloads/list?				can=2&q=SimpleOpenNI&colspec=Filename+Summary+Uploaded+ReleaseDate+Size+DownloadCountt
+		http://code.google.com/p/simple-openni/downloads/list?can=2&q=SimpleOpenNI&colspec=Filename+Summary+Uploaded+ReleaseDate+Size+DownloadCountt
 
-		3.3.- Despues probar el ejemplo que se encuentra disponible en la pagina de 			Simpleopenni para ver que la instalación esta completa.
+		3.3.- Despues probar el ejemplo que se encuentra disponible en la pagina de Simpleopenni para ver que la instalación esta completa.
 
 
 3º.- Instalar la IDE correspondiente a arduino
@@ -69,5 +69,6 @@ Nota Importante: Cabe destacar que todo esto es funciona en el sistema operativo
 Sugerencia: Para trabajar en el entorno de linux se necesita esperar que la libreria de sonido minin sea corregida debido a un bug que existe con java para las versiones de linux basadas en ubuntu.
 
 
-
+El codigo completo de Airdrum tambien se encuentra disponible en Google Code
+Pagina GoogleCode:https://code.google.com/p/air-drum-kinect-processing-arduino/source/browse/source.pde
 
